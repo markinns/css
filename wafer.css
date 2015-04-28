@@ -1,14 +1,43 @@
 /*
 CSS3 Ice Cream Wafer Pattern Class
+Method of defining a repeating linear colour gradient as a CSS image.
+
+Example: http://www.markinns.com/wafer-css
 */
 .wafer {
-		background-color: #eab766;
-		background-image:
-			/* Ridge Highlights */
-			-webkit-repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
-			-webkit-repeating-linear-gradient(120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px),
-			/* Gradient Background */
-			-webkit-repeating-linear-gradient(-120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px), 
-			-webkit-repeating-linear-gradient(120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px);
-		background-size: 60px 35px;
-		}
+  background-color: #eab766;
+  background-image:
+  /* Webkit */
+  /* Ridge Highlights */
+    -webkit-repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
+    -webkit-repeating-linear-gradient(120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px),
+  /* Gradient Background */  
+    -webkit-repeating-linear-gradient(-120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px),
+    -webkit-repeating-linear-gradient(120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px);
+
+   /* Monzilla */ 
+   /* Ridge Highlights */
+    -moz-repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
+    -moz-repeating-linear-gradient(120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px),
+  /* Gradient Background */  
+    -moz-repeating-linear-gradient(-120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px),
+    -moz-repeating-linear-gradient(120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px);
+
+  /* Opera */ 
+  /* Ridge Highlights */
+    -o-repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
+    -o-repeating-linear-gradient(120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px),
+  /* Gradient Background */  
+    -o-repeating-linear-gradient(-120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px),
+    -o-repeating-linear-gradient(120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px);
+
+/* w3.org */ 
+  /* Ridge Highlights */
+    repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
+    repeating-linear-gradient(120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px),
+  /* Gradient Background */  
+    repeating-linear-gradient(-120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px),
+    repeating-linear-gradient(120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px);
+    
+  background-size: 60px 35px;
+}
