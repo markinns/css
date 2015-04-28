@@ -7,6 +7,7 @@ Example: http://www.markinns.com/wafer-css
 .wafer {
   background-color: #eab766;
   background-image:
+  
   /* Webkit */
   /* Ridge Highlights */
     -webkit-repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
