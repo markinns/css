@@ -1,0 +1,14 @@
+/*
+CSS3 Ice Cream Wafer Pattern Class
+*/
+.wafer {
+		background-color: #eab766;
+		background-image:
+			/* Ridge Highlights */
+			-webkit-repeating-linear-gradient(-120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px), 
+			-webkit-repeating-linear-gradient(120deg, transparent 2px, rgba(255, 255, 255, .1), rgba(255, 255, 255, .6) 3px, transparent 1px, transparent 28px),
+			/* Gradient Background */
+			-webkit-repeating-linear-gradient(-120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px), 
+			-webkit-repeating-linear-gradient(120deg, transparent -6px, rgba(223, 158, 64, .9) -5px, rgba(211, 128, 32, .9), rgba(223, 158, 64, .1) 5px, transparent 1px, transparent 25px);
+		background-size: 60px 35px;
+		}
